@@ -4,17 +4,6 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    // <nav className="container mx-auto my-10 bg-white space-y-12">
-    //   <Image
-    //     src="/images/LogoSO.png"
-    //     alt="Olimpiade Logo"
-    //     width={200}
-    //     height={200}
-    //     className="cursor-pointer ml-20" // Menambahkan margin kiri
-    //   />
-    //    <Separator className="my-4" />
-    // </nav>
-
     <nav className="container mx-auto my-10 space-y-12 bg-white">
       <Image
         src="/images/LogoSO.png"

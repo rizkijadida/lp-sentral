@@ -23,16 +23,14 @@ export default function Home() {
       <Home2 />
 
       <div className="flex items-center justify-center md:m-10">
-      <div>
-  <Image
-    src="/images/HeaderWebSO.jpg"
-    alt=""
-    width={500}
-    height={500}
-    className="flex mx-auto cursor-pointer p-5 md:p-0 rounded-none sm:rounded-xl"
-  />
-</div>
-
+          <Image
+            src="/images/HeaderWebSO.jpg"
+            alt=""
+            width={500}
+            height={500}
+            className="mx-auto cursor-pointer rounded-xl p-5 md:p-0 "
+           
+          />
         </div>
         
 

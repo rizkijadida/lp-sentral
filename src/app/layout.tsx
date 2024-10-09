@@ -7,6 +7,7 @@ const inter = Inter({
   variable: "--font-inter",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
+
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
   variable: "--font-roboto-mono",
@@ -14,7 +15,12 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Olimpiade 2024",
+  title: "Sentral Olimpiade 2024",
+  icons: {
+    icon: ["/favicon.ico?v=4"],
+    apple: ["/apple-touch-icon.png?v=4"],
+    shortcut: ["apple-touch-icon.png"],
+  },
   description:
     "Situs resmi Olimpiade 2024, tempat untuk mengikuti kompetisi dan melihat hasil terbaru.",
 };
